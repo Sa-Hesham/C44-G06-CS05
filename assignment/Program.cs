@@ -1,4 +1,5 @@
-﻿using System.Drawing;
+﻿using System.ComponentModel;
+using System.Drawing;
 
 namespace assignment
 {
@@ -45,6 +46,39 @@ namespace assignment
             //    }
             //    Console.WriteLine();
             //}
+
+            #endregion
+
+
+            #region Q2
+            // 2 - Write a program in C# Sharp to find the sum of all elements of the array.
+            
+            //Console.WriteLine($"enter the the array size");
+            //int.TryParse(Console.ReadLine(), out int Size);
+
+            //int[] array = new int[Size];
+
+            //int sum = 0;
+
+            //for (int i = 0; i < Size; i++)
+            //{
+            //    Console.WriteLine($"enter element {i+1}");
+            //    int.TryParse(Console.ReadLine(), out  array[i]);
+
+
+            //    sum += array[i];
+
+
+            //}
+
+
+            //Console.WriteLine($"sum of elements = {sum}");
+            
+
+            
+
+
+
 
             #endregion
 
