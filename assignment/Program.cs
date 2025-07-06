@@ -142,15 +142,15 @@ namespace assignment
             //4 - Write a program in C# Sharp to find maximum and minimum element in an
             //    array = { 2, 4, 2, 6, 6, 8, 9, 10, 30, 59, 58 };
 
-        
+
             //first way
 
             //int[] arr=  new int [] { 2, 4, 2, 6, 6, 8, 9, 10, 30, 59, 58 };
 
-           //int max =arr.Max();
-           //int min=arr.Min();
-           // Console.WriteLine($"the max Value is  \" {max} \" ");
-           // Console.WriteLine($"the min Value is  \" {min} \" ");
+            //int max =arr.Max();
+            //int min=arr.Min();
+            // Console.WriteLine($"the max Value is  \" {max} \" ");
+            // Console.WriteLine($"the min Value is  \" {min} \" ");
 
             // second way 
             //Array.Sort(arr);
@@ -167,7 +167,7 @@ namespace assignment
 
             //    if (arr[i] > Max01)
             //    {
-               
+
             //        Max01 = arr[i];
 
             //    }
@@ -183,6 +183,50 @@ namespace assignment
 
 
             #endregion
+
+            #region Q5
+            //5 - Write a program in C# Sharp to find the second largest element in an  array.
+            //int[] arr = new int[] { 2, 4, 2, 6, 6, 8, 9, 10, 30, 59, 58 };
+
+            //first way  
+
+            //Array.Sort(arr);
+            //Console.WriteLine($"the second largest element is {arr[arr.Length-2]}");
+
+
+            //second way 
+
+            //int Max=arr[0];
+            //int Min=arr[0];
+            //int secondMax = 0;
+           
+
+            //for (int i = 1; i < arr.Length; i++)
+            //{
+
+
+            //    if (arr[i] > Max)
+            //    {
+
+            //        Min = Max;
+            //        Max= arr[i];
+                    
+
+            //    }
+            //    else if (arr[i] < Max && arr[i]>Min)
+            //    {
+            //        secondMax = arr[i];
+            //    }
+
+
+            //}
+
+            //Console.WriteLine($"second largest element = {secondMax} ");
+
+            #endregion
+
+
+
 
 
         }
