@@ -52,7 +52,7 @@ namespace assignment
 
             #region Q2
             // 2 - Write a program in C# Sharp to find the sum of all elements of the array.
-            
+
             //Console.WriteLine($"enter the the array size");
             //int.TryParse(Console.ReadLine(), out int Size);
 
@@ -73,9 +73,62 @@ namespace assignment
 
 
             //Console.WriteLine($"sum of elements = {sum}");
-            
 
-            
+
+
+
+
+
+
+            #endregion
+
+
+            #region Q3
+
+            //3 - Write a program in C# Sharp to merge two arrays of the same size sorted in
+            //ascending order.
+
+            //int[] arr01 = new int[5] { 5, 4, 3, 2, 1 };
+            //int[] arr02 = new int[5] { 6, 9, 10, 7, 8};
+            //int[] arr03 ;
+            //int size = 0; 
+
+            //if(arr01.Length == arr02.Length)
+            //{   
+            //    // merge to size in new array (expand )
+            //    int Capcity=arr01.Length+arr02.Length;
+            //    arr03 = new int[Capcity];
+            //    // merge array 01 to a new array
+            //    for(int i=0; i<arr01.Length; i++)
+            //    {
+            //        arr03[size++] = arr01[i];
+
+            //    }
+            //     //merge array 02;
+
+            //    for (int j = 0; j < arr02.Length; j++)
+            //    {
+            //        arr03[size++] = arr02[j];
+            //    }
+
+            //    Array.Sort(arr03);
+            //    Console.WriteLine("The new array after merging and sorting:");
+            //    foreach (int x in arr03)
+            //    {
+            //        Console.Write(x + " ");
+            //    }
+
+
+
+
+            //}
+            //else
+            //{
+            //    Console.WriteLine("can not merge cause they are not the same Size");
+
+            //}
+
+       
 
 
 
