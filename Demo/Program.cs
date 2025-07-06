@@ -150,6 +150,36 @@ namespace Demo
 
 
 
+            #region jagged array 
+            // it is 1D array  (array of arrays )
+            //each element refence to obj of array in heap 
+            // numbers of cloumns in each row  not !=
+
+
+            //int[][] marks = new int[2][];
+
+            //marks[0] = new int[]{ 9, 8, 3 };
+            //marks[1] = new int[] { 7, 2,11 };
+        
+
+
+            //for (int i = 0; i < marks.Length; i++)
+            //{
+            //    for (int j = 0; j < marks[i].Length; j++)
+            //    {
+            //        Console.WriteLine(marks[i][j]);
+                   
+            //    }
+
+
+            //}
+
+            
+
+
+            #endregion
+
+
             #endregion
 
 
