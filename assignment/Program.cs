@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 using System.Drawing;
 
 namespace assignment
@@ -128,8 +129,56 @@ namespace assignment
 
             //}
 
-       
 
+
+
+
+
+            #endregion
+
+
+            #region Q4
+
+            //4 - Write a program in C# Sharp to find maximum and minimum element in an
+            //    array = { 2, 4, 2, 6, 6, 8, 9, 10, 30, 59, 58 };
+
+        
+            //first way
+
+            //int[] arr=  new int [] { 2, 4, 2, 6, 6, 8, 9, 10, 30, 59, 58 };
+
+           //int max =arr.Max();
+           //int min=arr.Min();
+           // Console.WriteLine($"the max Value is  \" {max} \" ");
+           // Console.WriteLine($"the min Value is  \" {min} \" ");
+
+            // second way 
+            //Array.Sort(arr);
+            //Console.WriteLine($"the max Value is  \" {arr[(arr.Length-1)]}\" ");
+            //Console.WriteLine($"the min Value is  \" {arr[0]} \" ");
+
+            //third way 
+
+            //int Max01= arr[0];
+            //int Min01= arr[0];
+
+            //for (int i = 1; i < arr.Length; i++)
+            //{
+
+            //    if (arr[i] > Max01)
+            //    {
+               
+            //        Max01 = arr[i];
+
+            //    }
+            //    else if (arr[i]<Min01)
+            //    {
+            //        Min01 = arr[i];
+            //    }
+            //}
+
+            //Console.WriteLine($"the max Value is  \" {Max01} \" ");
+            //Console.WriteLine($"the min Value is  \" {Min01} \" ");
 
 
 
