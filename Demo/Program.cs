@@ -1,4 +1,6 @@
-﻿namespace Demo
+﻿using System.Globalization;
+
+namespace Demo
 {
     internal class Program
     {
@@ -43,13 +45,112 @@
             //for (int i = 0; i < arr04.Length; i++) {
 
             //    Console.WriteLine(arr04[i]);
-            
-            
+
+
             //}
 
 
             #endregion
 
+
+
+            #region multi Dimentional 
+
+
+            #region 2D array - rectanglur
+
+            //consiting of row and cloumns 
+            // numbers of cloumns = numbers of cloumns in another (subarray)  [all rows have the same numbers of columns ]
+            // called SQL [tables ]
+            // the defaule vlaue of array of data type is [zero] for int 
+
+            //int[,] number = new int[2, 5];
+            //int[,] numbers = new int[2, 5]  ==> size 40 byte
+            //{
+            //    {1,2,3,4,5 },
+
+
+            //    {6,7,8,9,10 }
+            //};
+
+
+            //Console.WriteLine(numbers[0,4]);
+            //Console.WriteLine(numbers[1,2]);
+
+            //foreach(int x in numbers)
+            //{
+            //    Console.WriteLine(x); 
+            //}
+
+
+            //for(int i = 0; i < 2; i++)
+            //{
+
+            //    for (int j = 0; j < 5; j++)
+            //    {
+            //        Console.WriteLine(numbers[i,j]);
+            //    }
+            //}
+
+
+
+
+
+            uint[,] dgrees = new uint[2,5];
+
+            //Console.WriteLine( dgrees.Length + " " + dgrees.Rank );
+            //bool isparsed;
+
+
+            //for (int i = 0; i < dgrees.GetLength(0); i++) {
+
+            //    Console.WriteLine($" plese enter student  number {i+1}");
+
+            //     for (int j =0;j < dgrees.GetLength(1); )
+            //    {
+            //        Console.WriteLine($"enter the subject number :: {j+1}");
+
+            //      isparsed= uint.TryParse(Console.ReadLine(),out dgrees[i,j]);   
+
+
+            //        if (isparsed && dgrees [i,j]<= 100)
+            //        {
+            //            j++;
+            //        }
+
+
+
+
+            //    }
+
+
+
+            //}
+
+
+
+            // retrive array with one loop 
+
+            // 0 ,1,2,3,4,5,6,7,8,9[10 elements]  
+            // rows / cloumns[5]  
+            // 0 0 0 0 0  1, 1,1,1,
+
+
+            //for (int i = 0; i < dgrees.Length; i++)
+
+            //{
+
+            //    Console.WriteLine(dgrees[i/dgrees.GetLength(1),i%dgrees.GetLength(1)]);
+            //}
+
+
+
+
+            #endregion
+
+
+
+            #endregion
 
 
 
