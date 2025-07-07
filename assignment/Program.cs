@@ -199,7 +199,7 @@ namespace assignment
             //int Max=arr[0];
             //int Min=arr[0];
             //int secondMax = 0;
-           
+
 
             //for (int i = 1; i < arr.Length; i++)
             //{
@@ -210,7 +210,7 @@ namespace assignment
 
             //        Min = Max;
             //        Max= arr[i];
-                    
+
 
             //    }
             //    else if (arr[i] < Max && arr[i]>Min)
@@ -222,6 +222,71 @@ namespace assignment
             //}
 
             //Console.WriteLine($"second largest element = {secondMax} ");
+
+            #endregion
+
+
+            #region Q6
+
+
+
+            //6 -.Consider an Array of Integer values with size N, having values as in this Example
+
+            //Console.WriteLine("enter the array Size ");
+            //int.TryParse(Console.ReadLine(), out int size);
+
+            //int[] arr=new int[size];
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    Console.WriteLine($"enter element {i+1}");
+            //    int.TryParse(Console.ReadLine(), out arr[i]);
+            //}
+
+            //// check on the longest distance between  the same value 
+            //int longdistance = 0;
+            //int fIndex = -1;
+            //int lIndex = -1;
+            //int repetednumber=0 ;
+
+            //for (int i = 0; i < arr.Length; i++)    // actual numbers 
+            
+            //{
+
+            //    for (int j = i+1; j < arr.Length; j++) {    // to compare with next value 
+                
+            //     if (arr[i] == arr[j])
+            //        {
+
+            //            int dis = j - i - 1;
+            //            if (dis > longdistance)
+            //            {
+            //                longdistance = dis;
+            //                fIndex= i;  
+            //                lIndex = j; 
+            //                repetednumber = arr[i];
+            //            }
+
+
+            //        }
+                
+                
+                
+                
+            //    }
+            
+            
+            //}
+
+
+            //if (longdistance > 0)
+            //{
+            //    Console.WriteLine($"The longest distance is: {longdistance}");
+            //    Console.WriteLine($"Between number {repetednumber} at index {fIndex+1} and index {lIndex+1}");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("No repeated numbers found.");
+            //}
 
             #endregion
 
