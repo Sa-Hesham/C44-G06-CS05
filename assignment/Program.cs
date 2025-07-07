@@ -312,10 +312,47 @@ namespace assignment
 
             //    }
             //}
-         
+
             #endregion
 
 
+
+            #region Q8
+
+
+            //Console.Write("Enter number of rows: ");
+            // int.TryParse(Console.ReadLine(),out int row);
+
+            //Console.Write("Enter number of columns: ");
+            // int.TryParse(Console.ReadLine(),out int colm);
+
+            //int[,] array1 = new int[row, colm];
+            //int[,] array2 = new int[row, colm];
+
+
+
+            //for (int i = 0; i < array1.GetLength(0); i++)
+            //{
+            //    for (int j = 0; j < array1.GetLength(1); j++)
+            //    {
+            //        Console.Write($"Element {j+1}: ");
+            //         int.TryParse(Console.ReadLine(),out array1[i,j]);
+            //    }
+            //}
+
+            //Array.Copy(array1, array2, array1.Length);
+
+
+            //Console.WriteLine(" the values in array  2 ::");
+            //for (int i = 0; i < row; i++)
+            //{
+            //    for (int j = 0; j < colm; j++)
+            //    {
+            //        Console.Write(array2[i, j] + "\t");
+            //    }
+            //    Console.WriteLine();
+            //}
+            #endregion
 
 
         }
