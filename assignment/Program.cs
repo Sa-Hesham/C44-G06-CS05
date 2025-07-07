@@ -1,6 +1,7 @@
 ﻿using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.Drawing;
+using System.Net.NetworkInformation;
 
 namespace assignment
 {
@@ -352,6 +353,35 @@ namespace assignment
             //    }
             //    Console.WriteLine();
             //}
+            #endregion
+
+
+
+            #region Q9
+
+            //Write a Program to Print One Dimensional Array in Reverse Order
+
+
+            //Console.WriteLine("enter the array size ");
+            //int.TryParse(Console.ReadLine(), out int Size);
+
+            //int[] myarr= new int[Size];
+
+
+            //for (int i = 0; i < myarr.Length; i++)
+            //{
+            //    Console.WriteLine($"enter element {i+1}");
+            //    int.TryParse(Console.ReadLine(), out myarr[i]);
+            //}
+
+            //Console.WriteLine("array after reverse ");
+            //for (int i = myarr.Length-1; i >= 0; i--)
+            //{
+            //    Console.Write(myarr[i] + " " );
+               
+            //}
+
+
             #endregion
 
 
