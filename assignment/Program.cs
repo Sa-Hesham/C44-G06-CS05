@@ -249,11 +249,11 @@ namespace assignment
             //int repetednumber=0 ;
 
             //for (int i = 0; i < arr.Length; i++)    // actual numbers 
-            
+
             //{
 
             //    for (int j = i+1; j < arr.Length; j++) {    // to compare with next value 
-                
+
             //     if (arr[i] == arr[j])
             //        {
 
@@ -268,13 +268,13 @@ namespace assignment
 
 
             //        }
-                
-                
-                
-                
+
+
+
+
             //    }
-            
-            
+
+
             //}
 
 
@@ -290,6 +290,30 @@ namespace assignment
 
             #endregion
 
+
+            #region Q7
+
+            //Console.WriteLine("enter the words ");
+            //string ? s1 =Console.ReadLine();
+
+            //string[] arr = s1.Split(' ');
+
+            //if (arr.Length == 1)
+            //{
+            //    Console.WriteLine(arr[0]);
+            //}
+            //else
+            //{
+
+            //    for (int i = (arr.Length - 1); i>= 0; i--)
+            //    {
+
+            //        Console.Write(arr[i] + " ");
+
+            //    }
+            //}
+         
+            #endregion
 
 
 
