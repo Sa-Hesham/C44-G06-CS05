@@ -160,7 +160,7 @@ namespace Demo
 
             //marks[0] = new int[]{ 9, 8, 3 };
             //marks[1] = new int[] { 7, 2,11 };
-        
+
 
 
             //for (int i = 0; i < marks.Length; i++)
@@ -168,16 +168,48 @@ namespace Demo
             //    for (int j = 0; j < marks[i].Length; j++)
             //    {
             //        Console.WriteLine(marks[i][j]);
-                   
+
             //    }
 
 
             //}
 
-            
+
 
 
             #endregion
+
+
+            #endregion
+
+
+
+
+            #region array_methods
+
+            /// class member methods [static methods ]
+            /// Array.Sort();  // order by acsending
+            /// Array.Copy();   // copy the source array in , destination array , length => number of element  satrt from first element to spacefic length 
+            ///   Array.Clear(); /// delete all value in arry  to default vlaue [0] 
+            /// Array.ConstrainedCopy();   // take source array  , start index of source , destinaion aray , destinaion index (start place) , length (number of elemnt))
+            /// Array.IndexOf();  //return the endex of value 
+
+            // class obj methods
+
+            //int[] arr05 = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+            //int[] arr06 = new int[10];
+            //arr05.CopyTo(arr06 ,0);
+
+
+            //foreach (int i in arr05) {
+
+            //    Console.WriteLine(i);
+            
+            //}
+
+
+            
+
 
 
             #endregion
